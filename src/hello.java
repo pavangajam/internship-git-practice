@@ -25,7 +25,7 @@ public class hello {
 
     // Main method for testing
     public static void main(String[] args) {
-        hello obj = new hello("Hello from Java!", 42);
+        hello obj = new hello("Conflicting change", 42);
         obj.displayInfo();
     }
 }
