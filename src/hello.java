@@ -25,7 +25,7 @@ public class hello {
 
     // Main method for testing
     public static void main(String[] args) {
-        hello obj = new hello("Conflicting changess", 42);
+        hello obj = new hello("Conflicting scenario arise", 42);
         obj.displayInfo();
     }
 }
