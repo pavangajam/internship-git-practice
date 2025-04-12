@@ -12,7 +12,7 @@ public class addition {
     }
 
     public void displayResult() {
-        System.out.println("conflicting addition sum " + a + " and " + b + " is: " + add());
+        System.out.println("hello from pr2");
     }
 
     public static void main(String[] args) {
