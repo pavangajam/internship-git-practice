@@ -34,7 +34,7 @@ public class subtraction {
     public int performSubtraction() {
         int result = subtractFrom - number;
         if (result < 0) {
-            System.out.println("Warning: Result is negative.");
+            System.out.println("Warning: Result may be negative.");
         }
         return result;
     }
