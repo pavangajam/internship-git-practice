@@ -1,10 +1,12 @@
 public class addition {
     private int a;
     private int b;
+    int c;
 
     public addition(int a, int b) {
         this.a = a;
         this.b = b;
+        this.c=c;
     }
 
     public int add() {
@@ -17,6 +19,7 @@ public class addition {
 
     public static void main(String[] args) {
         addition obj = new addition(10, 20);
+        System.out.println("again force pushing - 2nd time");
         obj.displayResult();
     }
 }

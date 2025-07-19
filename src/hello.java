@@ -21,6 +21,7 @@ public class hello {
     public void displayInfo() {
         System.out.println("Message: " + message);
         System.out.println("Number: " + number);
+        System.out.println("added new line requirement");
     }
 
     // Main method for testing
