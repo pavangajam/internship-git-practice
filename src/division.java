@@ -11,7 +11,7 @@ public class division {
     // Method to perform division
     public double divide() {
         if (b == 0) {
-            throw new ArithmeticException("Cannot divide by zero.");
+            throw new ArithmeticException("Cannot divide by zero, only will be divided by greater than 0.");
         }
         return a / b;
     }
