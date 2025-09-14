@@ -43,5 +43,6 @@ public class addition {
         obj.updateValues(1000000000, 1500000000);
         System.out.println("\nAfter updating values:");
         obj.displayResult();
+        System.out.println("clear structure");
     }
 }

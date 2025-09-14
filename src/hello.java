@@ -19,8 +19,8 @@ public class hello {
 
     // Display method
     public void displayInfo() {
-        System.out.println("Message: " + message);
-        System.out.println("Number: " + number);
+        System.out.println("Message: welcome back " + message);
+        System.out.println("Number: after a long time.." + number);
     }
 
     // Main method for testing
