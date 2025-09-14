@@ -32,7 +32,7 @@ public class multiplication {
 
         // Update and display again
         obj.updateValues(10, 20);
-        System.out.println("\nAfter updating values:");
+        System.out.println("\nAfter updating values: after the calculation");
         obj.displayResult();
     }
 }

@@ -34,7 +34,7 @@ public class subtraction {
     public int performSubtraction() {
         int result = subtractFrom - number;
         if (result < 0) {
-            System.out.println("Warning: Result may be negative.");
+            System.out.println("Warning: Result may be negative, and also sometimes zero.");
         }
         return result;
     }
@@ -56,11 +56,11 @@ public class subtraction {
 
     // Main method for testing
     public static void main(String[] args) {
-        subtraction obj = new subtraction("Performing subtraction", 5, 10);
+        subtraction obj = new subtraction("Performing subtraction, please give correct values", 5, 10);
         obj.displayInfo();
 
         // Updating values
-        obj.updateInfo("Updated subtraction", 7, 20);
+        obj.updateInfo("Updated subtraction will alwasy give correct value", 7, 20);
         System.out.println("\nAfter update:");
         obj.displayInfo();
     }
