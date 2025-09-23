@@ -15,6 +15,7 @@ public class addition {
             throw new ArithmeticException("Integer overflow in addition.");
         }
         System.out.println("change to create conflict");
+        System.out.println("change to create merge strategy");
         return (int) result;
     }
 
