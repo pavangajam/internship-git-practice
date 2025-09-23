@@ -14,7 +14,7 @@ public class addition {
         if (result > Integer.MAX_VALUE || result < Integer.MIN_VALUE) {
             throw new ArithmeticException("Integer overflow in addition.");
         }
-        System.out.println("change to create conflict");
+        System.out.println("change to create conflict and 2 commits");
         System.out.println("change to create merge strategy");
         return (int) result;
     }
