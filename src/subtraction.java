@@ -49,9 +49,9 @@ public class subtraction {
     // Display method
     public void displayInfo() {
         System.out.println("Message: " + message);
-        System.out.println("Number: " + number);
-        System.out.println("Subtracting " + number + " from " + subtractFrom);
-        System.out.println("Result: " + performSubtraction());
+        System.out.println("Number/Float- input any number type: " + number);
+        System.out.println("Subtracting - this can also be anything - 3rd time " + number + " from " + subtractFrom);
+        System.out.println("Result can be anything: " + performSubtraction());
     }
 
     // Main method for testing
