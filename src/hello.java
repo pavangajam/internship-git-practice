@@ -25,7 +25,7 @@ public class hello {
 
     // Main method for testing
     public static void main(String[] args) {
-        hello obj = new hello("small change goes into new commit", 42);
+        hello obj = new hello("small change goes into new commit/ updated the hello file in src", 42);
         obj.displayInfo();
     }
 }
