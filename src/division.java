@@ -27,6 +27,7 @@ public class division {
         System.out.println("Dividing " + a + " by " + b);
         try {
             System.out.println("Result: " + divide());
+            System.out.println("conflicting change!!");
         } catch (ArithmeticException e) {
             System.out.println("Error: " + e.getMessage());
         }
